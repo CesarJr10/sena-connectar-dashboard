@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import Alert from "@mui/material/Alert";
-//import { createTheme } from '@mui/material/styles';
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import Grid from "@mui/material/Grid";
@@ -79,13 +78,13 @@ function RegisterForm() {
       <Box
         sx={{
           display: 'flex',
-          justifyContent: 'center', // Centrar horizontalmente
-          alignItems: 'center', // Centrar verticalmente
+          justifyContent: 'center', 
+          alignItems: 'center', 
           height: '100vh',
         }}
       >
         
-        <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
+        <Box component="form" onSubmit={handleSubmit} sx={{ mt: 3 }}>
           <Typography component="h1" variant="h5"
             sx={{
               textAlign: 'center',

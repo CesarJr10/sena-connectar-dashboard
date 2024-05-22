@@ -115,7 +115,7 @@ const UserList = () => {
                 onChange={(e) => setEmail(e.target.value)}
               />
             </Grid>
-            {/* Resto de los campos del formulario */}
+            
           </Grid>
           <Button type="submit" variant="contained" color="primary">
             Guardar Cambios
